@@ -30,7 +30,6 @@ def distance_calculator(x1, x2):
 def route_tracer(first_point, cords):
     smallest_distance = float('inf')
     closest_point = None
-
     for cord in cords:
         distance = distance_calculator(first_point, cord)
         if distance < smallest_distance:
