@@ -14,7 +14,6 @@ def main():
     print(f'Starting at the point {first_point}')
     print(routes)
 
-
 def remove_duplicates(cords:list):
     newCords = []
     for cord in cords:
@@ -25,7 +24,6 @@ def remove_duplicates(cords:list):
 def distance_calculator(x1, x2):
     distance = float(((x1[0] - x2[0])**2 + (x1[1] - x2[1])**2) ** 0.5)
     return distance
-
 
 def route_tracer(first_point, cords):
     smallest_distance = float('inf')
