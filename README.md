@@ -1,5 +1,5 @@
-# PANDORA BOX
-#### Video Demo:  <https://youtu.be/4tuppiueWew>
+# Project: Pandora Box
+#### Video Showcase:  <https://youtu.be/4tuppiueWew>
 #### Description:
 This program reads location data from a CSV file, processes the data, and finds the optimal route between a set of points. Here's a description of what the program does:
 
